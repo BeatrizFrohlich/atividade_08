@@ -1,4 +1,7 @@
 body {
+    background-color: rgb(235, 212, 253);
+    color: rgb(137, 38, 177);
+    margin: 0;
     font-family: Arial;
     text-align: center;
 }
@@ -12,3 +15,4 @@ button {
     padding: 10px;
     margin: 5px;
 }
+
