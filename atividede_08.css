@@ -6,6 +6,17 @@ body {
     text-align: center;
 }
 
+.container {
+    background-color: rgb(227, 175, 240);
+    width: 350px;
+    margin: 100px auto;
+    padding: 20px;
+
+    border-radius: 5px;
+
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+}
+
 input {
     margin: 5px;
     padding: 8px;

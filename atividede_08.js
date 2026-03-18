@@ -54,3 +54,9 @@ function dividir() {
 
     mostrarResultado(valores.n1 / valores.n2);
 }
+
+function limpar() {
+    document.getElementById("num1").value = "";
+    document.getElementById("num2").value = "";
+    mostrarResultado("");
+}
