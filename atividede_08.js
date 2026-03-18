@@ -7,3 +7,8 @@ function obterValores() {
 
 n1 = parseFloat(n1);
 n2 = parseFloat(n2);
+
+if (n1 === "" || n2 === "") {
+    alert("Preencha todos os campos!");
+    return null;
+}
