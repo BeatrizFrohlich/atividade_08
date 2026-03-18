@@ -12,3 +12,8 @@ if (n1 === "" || n2 === "") {
     alert("Preencha todos os campos!");
     return null;
 }
+
+if (isNaN(n1) || isNaN(n2)) {
+    alert("Digite apenas números!");
+    return;
+}
