@@ -17,3 +17,7 @@ if (isNaN(n1) || isNaN(n2)) {
     alert("Digite apenas números!");
     return;
 }
+
+function mostrarResultado(msg) {
+    document.getElementById("resultado").innerText = "Resultado: " + msg;
+}
